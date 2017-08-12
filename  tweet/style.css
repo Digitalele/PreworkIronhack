@@ -1,0 +1,77 @@
+body{
+  background-color: rgb(244, 248, 249);
+  font-family: helvetica;
+  padding: 20px;
+  font-size: 30px;
+  color: #000;
+}
+
+.tweet {
+  padding: 40px;
+  margin: 0 auto;
+  display:block;
+  width: 800px;
+  height: 220px;
+  background-color: rgb(255,255,255);
+  border-style:solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: rgb(225,232,237);
+}
+
+p{
+  margin: 25px 0 0 0;
+}
+
+.bottom>time{
+  line-height: 2.5;
+  color: rgb(101, 116, 127);
+}
+
+.top>img{
+  margin-right: 15px;
+}
+
+.account-info{
+  display:inline-block;
+}
+
+.bottom{
+  font-size:25px;
+  color: rgb(105, 120, 130);
+}
+
+a{
+  margin-left: -5px;
+  font-size: 25px;
+  text-decoration: none;
+  color:rgb(104, 109, 129);
+}
+
+button{
+  background-color: #fff;
+  display: inline-block;
+  float:right;
+  width: 200px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  vertical-align: center;
+  color: rgb(85,172,238);
+  border: 2px solid rgb(85,172,238);
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: rgb(85,172,238);
+  color: #fff;
+}
+
+.bottom>img:nth-child(3){
+  margin-right: 20px;
+}
+.bottom>img:nth-child(5){
+  margin-left: 20px;
+}
+
